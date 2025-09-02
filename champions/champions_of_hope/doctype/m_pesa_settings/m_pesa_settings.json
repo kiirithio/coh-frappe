@@ -9,7 +9,8 @@
   "consumer_secret",
   "shortcode",
   "passkey",
-  "callback_url"
+  "callback_url",
+  "base_url"
  ],
  "fields": [
   {
@@ -36,13 +37,18 @@
    "fieldname": "callback_url",
    "fieldtype": "Data",
    "label": "Callback URL"
+  },
+  {
+   "fieldname": "base_url",
+   "fieldtype": "Data",
+   "label": "Base URL"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2025-09-02 11:29:15.161927",
+ "modified": "2025-09-03 00:43:01.891180",
  "modified_by": "Administrator",
  "module": "Champions of Hope",
  "name": "M-Pesa Settings",
