@@ -44,7 +44,7 @@ def create_donation():
         token = get_access_token(
             settings.consumer_key,
             settings.consumer_secret,
-            settings.base_url or "https://api.safaricom.co.ke"
+            settings.base_url
         )
 
         timestamp = now_datetime().strftime("%Y%m%d%H%M%S")
